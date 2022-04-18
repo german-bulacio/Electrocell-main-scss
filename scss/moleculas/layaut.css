@@ -1,0 +1,67 @@
+.grid {
+  display: -ms-grid;
+  display: grid;
+  overflow: hidden;
+  -ms-flex-line-pack: space-evenly;
+      align-content: space-evenly;
+}
+
+.bloque1 {
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+}
+
+.serv1 {
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+.bloquesrv2 {
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+}
+
+.serv2 {
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.prodNvos {
+  -ms-grid-columns: 30% 30% 30%;
+      grid-template-columns: 30% 30% 30%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.piePg {
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+}
+
+.pieOrden {
+  -ms-grid-columns: 30% 30% 30%;
+      grid-template-columns: 30% 30% 30%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.cttDts {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  text-align: start;
+}
+/*# sourceMappingURL=layaut.css.map */
